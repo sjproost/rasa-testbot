@@ -14,8 +14,8 @@ jobs:
           rasa_version: '3.2.8-spacy-de'
          # requirements_file: requirements.txt
           data_validate: true
-         # rasa_train: true
-          fine_tune: true
+          rasa_train: true
+          fine_tune: false
           cross_validation: false
           rasa_test: true
           test_type: all

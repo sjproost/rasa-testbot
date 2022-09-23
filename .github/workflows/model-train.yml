@@ -21,8 +21,8 @@ jobs:
           test_type: all
           publish_summary: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - run: echo "Upload Model"
       - name: Upload model
-        run: echo "Upload Model"
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v3
         with:

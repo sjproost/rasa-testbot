@@ -29,6 +29,8 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - bis später
+    - tschüss
 
 - intent: affirm
   examples: |
@@ -38,6 +40,10 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - ja
+    - natürlich
+    - klar
+    - Ja
 
 - intent: deny
   examples: |
@@ -73,6 +79,7 @@ nlu:
     - mit geht es gut
     - mir gehts gut
     - alles gut
+    - super
 
 - intent: mood_unhappy
   examples: |
@@ -92,6 +99,9 @@ nlu:
     - so sad
     - alles mist
     - doof
+    - nicht gut
+    - schlecht
+    - mir geht es nicht so gut
 
 - intent: bot_challenge
   examples: |
@@ -100,4 +110,4 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
     - Bist du ein Bot?
-    Chatbot?
+    - Chatbot?

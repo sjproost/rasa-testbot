@@ -21,10 +21,10 @@ jobs:
           test_type: all
           publish_summary: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - run: echo "Upload Model"
       - name: Upload model
+        echo: "Upload Model"
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v3
         with:
           name: latest.tar.gz
-          path: rasa-testbot/models/
+          path: ~/models
